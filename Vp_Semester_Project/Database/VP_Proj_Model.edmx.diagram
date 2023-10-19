@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="1dd62176f3a341139afaf8b1485fab0f" Name="Diagram1">
+        <EntityTypeShape EntityType="Vp_Semester_Project_DBModel.Admin_Password" Width="1.5" PointX="5.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Vp_Semester_Project_DBModel.Class_Course_Teacher" Width="1.5" PointX="3" PointY="2.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Vp_Semester_Project_DBModel.Course_Reg" Width="1.5" PointX="0.75" PointY="5.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="Vp_Semester_Project_DBModel.Notification" Width="1.5" PointX="5.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Vp_Semester_Project_DBModel.Student_Attendance" Width="1.5" PointX="3" PointY="5.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Vp_Semester_Project_DBModel.Student_marks" Width="1.5" PointX="3" PointY="9.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="Vp_Semester_Project_DBModel.Student_Reg" Width="1.5" PointX="5.75" PointY="6.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Vp_Semester_Project_DBModel.Teacher_Reg" Width="1.5" PointX="0.75" PointY="1.375" IsExpanded="true" />
+        <AssociationConnector Association="Vp_Semester_Project_DBModel.FK__Class_Cou__Cours__35BCFE0A" ManuallyRouted="false" />
+        <AssociationConnector Association="Vp_Semester_Project_DBModel.FK__Class_Cou__Teach__36B12243" ManuallyRouted="false" />
+        <AssociationConnector Association="Vp_Semester_Project_DBModel.FK__Student_A__Cours__300424B4" ManuallyRouted="false" />
+        <AssociationConnector Association="Vp_Semester_Project_DBModel.FK__Student_m__Cours__30F848ED" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

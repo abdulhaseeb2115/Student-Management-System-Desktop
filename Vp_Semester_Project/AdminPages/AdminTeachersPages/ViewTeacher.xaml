@@ -1,0 +1,94 @@
+﻿<Page x:Class="Vp_Semester_Project.AdminPages.AdminTeachersPages.ViewTeacher"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Vp_Semester_Project.AdminPages.AdminTeachersPages"
+      mc:Ignorable="d" 
+      d:DesignHeight="676" d:DesignWidth="910"
+      Title="ViewTeacher">
+    <Page.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="D:\1_UNI\Programming\C#\Vp_Semester_Project\Vp_Semester_Project\Dictionaries\InternalStyles.xaml"/>
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </Page.Resources>
+
+    <Grid Style="{StaticResource InternalPage}">
+
+
+        <DockPanel HorizontalAlignment="Right" VerticalAlignment="Top" Margin="80,30">
+
+            <TextBox x:Name="InputRegNo" Style="{StaticResource SearchBarTextBox}" Margin="0,0,10,0"/>
+
+            <Button x:Name="search" Style="{StaticResource adusButton}" Content="SEARCH" Click="search_Click"  Margin="0"/>
+        </DockPanel>
+
+
+
+        <Border x:Name="foundData" Visibility="Hidden" Style="{StaticResource MainBorder}">
+            <Grid Margin="30" Width="710" VerticalAlignment="Center">
+
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="110*"/>
+                    <ColumnDefinition Width="150*"/>
+                    <ColumnDefinition Width="15*"/>
+                    <ColumnDefinition Width="120*"/>
+                    <ColumnDefinition Width="290*"/>
+                </Grid.ColumnDefinitions>
+
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="55" />
+                    <RowDefinition Height="55" />
+                    <RowDefinition Height="55" />
+                    <RowDefinition Height="55" />
+                    <RowDefinition Height="55" />
+                </Grid.RowDefinitions>
+
+
+
+                <Label Content="TEACHER DATA" Style="{StaticResource MainBorderLabel}" Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="2" VerticalAlignment="Top" Margin="0,10,0,0" FontSize="30" FontWeight="SemiBold"
+                       VerticalContentAlignment="Center" Padding="10,0" Height="40"  BorderThickness="0"/>
+
+                <Label Content="ID" Style="{StaticResource MainBorderLabel}" Grid.Column="0" Grid.Row="2"  BorderThickness="0" />
+                <Label Content="Name" Style="{StaticResource MainBorderLabel}" Grid.Column="0" Grid.Row="3"  BorderThickness="0"/>
+                <Label Content="Father Name" Style="{StaticResource MainBorderLabel}" Grid.Column="0" Grid.Row="4"  BorderThickness="0"/>
+
+
+
+                <Label x:Name="IdOutput" Style="{StaticResource MainBorderLabel}" Grid.Column="1" Grid.Row="2"/>
+                <Label x:Name="NameOutput" Style="{StaticResource MainBorderLabel}" Grid.Column="1" Grid.Row="3"/>
+                <Label x:Name="FatherNameOutput" Style="{StaticResource MainBorderLabel}" Grid.Column="1" Grid.Row="4"/>
+
+                
+                <Label Content="Qualification" Style="{StaticResource MainBorderLabel}" Grid.Column="3" Grid.Row="0"  BorderThickness="0"/>
+                <Label Content="Email" Style="{StaticResource MainBorderLabel}" Grid.Column="3" Grid.Row="1"  BorderThickness="0"/>
+                <Label Content="Phone" Style="{StaticResource MainBorderLabel}" Grid.Column="3" Grid.Row="2"  BorderThickness="0"/>
+                <Label Content="Address" Style="{StaticResource MainBorderLabel}" Grid.Column="3" Grid.Row="3"  BorderThickness="0"/>
+                <Label Content="Password" Style="{StaticResource MainBorderLabel}" Grid.Column="3" Grid.Row="4" BorderThickness="0"/>
+
+
+                <Label x:Name="QualificationOutput" Style="{StaticResource MainBorderLabel}" Grid.Column="4" Grid.Row="0"/>
+                <Label x:Name="EmailOutput"  Style="{StaticResource MainBorderLabel}" Grid.Column="4" Grid.Row="1"/>
+                <Label x:Name="PhoneOutput"  Style="{StaticResource MainBorderLabel}" Grid.Column="4" Grid.Row="2"/>
+                <Label x:Name="AddressOutput" Style="{StaticResource MainBorderLabel}" Grid.Column="4" Grid.Row="3"/>
+                <Label x:Name="PasswordOutput" Style="{StaticResource MainBorderLabel}" Grid.Column="4" Grid.Row="4"/>
+
+            </Grid>
+        </Border>
+
+
+
+        <Border Visibility="Hidden" x:Name="noData" Style="{StaticResource MainBorder}">
+
+            <Label Name="noDataLabel" Style="{StaticResource MainBorderLabel}" Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="2" Grid.RowSpan="2" VerticalAlignment="Top" Margin="0,10,5,10" FontSize="30" FontWeight="SemiBold"
+                       VerticalContentAlignment="Center" Padding="10,0" Height="Auto"  BorderThickness="0"/>
+        </Border>
+
+
+
+    </Grid>
+
+
+</Page>

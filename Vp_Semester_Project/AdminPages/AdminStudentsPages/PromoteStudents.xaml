@@ -1,0 +1,38 @@
+﻿<Page x:Class="Vp_Semester_Project.AdminPages.AdminStudentsPages.PromoteStudents"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Vp_Semester_Project.AdminPages.AdminStudentsPages"
+      mc:Ignorable="d" 
+      d:DesignHeight="676" d:DesignWidth="910"
+      Title="PromoteStudents">
+
+    <Page.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="D:\1_UNI\Programming\C#\Vp_Semester_Project\Vp_Semester_Project\Dictionaries\InternalStyles.xaml"/>
+            </ResourceDictionary.MergedDictionaries>
+
+        </ResourceDictionary>
+    </Page.Resources>
+
+    <Grid Style="{StaticResource InternalPage}">
+
+
+        <Border Style="{StaticResource MainBorder}">
+            <Grid Margin="30" Height="400" Width="350">
+
+                <Label Content="PROMOTE STUDENTS" FontSize="30" FontWeight="Bold" VerticalAlignment="Top" HorizontalAlignment="Left"/>
+
+                <Button x:Name="promote" Content="Promote" HorizontalAlignment="Stretch"  VerticalAlignment="Center" Height="50" Click="promote_Click"/>
+                
+                <TextBox x:Name="message" HorizontalAlignment="Left" FontSize="15"  TextWrapping="Wrap"  VerticalAlignment="Bottom" >
+                </TextBox>
+
+            </Grid>
+        </Border>
+
+
+    </Grid>
+</Page>

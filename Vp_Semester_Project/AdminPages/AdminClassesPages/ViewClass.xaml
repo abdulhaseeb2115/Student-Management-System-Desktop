@@ -1,0 +1,68 @@
+﻿<Page x:Class="Vp_Semester_Project.AdminPages.AdminClassesPages.ViewClass"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Vp_Semester_Project.AdminPages.AdminClassesPages"
+      mc:Ignorable="d" 
+      d:DesignHeight="676" d:DesignWidth="910"
+      Title="ViewClass">
+    <Page.Resources>
+        <ResourceDictionary>
+
+            <Style TargetType="{x:Type TextBlock}">
+                <Setter Property="Padding" Value="10"/>
+                <Setter Property="Margin" Value="0"/>
+            </Style>
+
+            <Style x:Key="border" TargetType="{x:Type Border}">
+                <Setter Property="Margin" Value="0,2"/>
+                <Setter Property="BorderThickness" Value="1"/>
+                <Setter Property="BorderBrush" Value="Black"/>
+            </Style>
+
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="D:\1_UNI\Programming\C#\Vp_Semester_Project\Vp_Semester_Project\Dictionaries\InternalStyles.xaml"/>
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </Page.Resources>
+
+    <Grid Style="{StaticResource InternalPage}">
+
+        <ComboBox x:Name="className" Height="auto" Width="229" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="80,20,0,0" FontSize="20" Padding="10,5" SelectionChanged="ComboBox_SelectionChanged">
+            <ComboBoxItem Content="Select a Class" IsEnabled="False" IsSelected="True"/>
+            <ComboBoxItem Content="BSE-1"/>
+            <ComboBoxItem Content="BSE-2"/>
+            <ComboBoxItem Content="BSE-3"/>
+            <ComboBoxItem Content="BSE-4"/>
+            <ComboBoxItem Content="BSE-5"/>
+            <ComboBoxItem Content="BSE-6"/>
+            <ComboBoxItem Content="BSE-7"/>
+            <ComboBoxItem Content="BSE-8"/>
+        </ComboBox>
+
+
+
+        <Border x:Name="mainBorder" Style="{StaticResource MainBorder}" Height="auto" VerticalAlignment="Center" Padding="5,10" Visibility="Hidden">
+            <Grid x:Name="subjectTeacherList" Margin="40,30" Width="600" VerticalAlignment="Center">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="10*"/>
+                    <ColumnDefinition Width="1*"/>
+                    <ColumnDefinition Width="10*"/>
+                </Grid.ColumnDefinitions>
+
+            </Grid>
+        </Border>
+
+
+
+        <Border Visibility="Hidden" x:Name="noData" Style="{StaticResource MainBorder}">
+
+            <Label Name="noDataLabel" Style="{StaticResource MainBorderLabel}" Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="2" Grid.RowSpan="2" VerticalAlignment="Top" Margin="0,10,5,10" FontSize="30" FontWeight="SemiBold"
+                       VerticalContentAlignment="Center" Padding="10,0" Height="Auto"  BorderThickness="0"/>
+        </Border>
+
+
+
+    </Grid>
+</Page>

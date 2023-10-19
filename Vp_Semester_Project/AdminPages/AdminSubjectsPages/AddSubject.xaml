@@ -1,0 +1,69 @@
+﻿<Page x:Class="Vp_Semester_Project.AdminPages.AdminSubjectsPages.AddSubject"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Vp_Semester_Project.AdminPages.AdminSubjectsPages"
+      mc:Ignorable="d" 
+      d:DesignHeight="676" d:DesignWidth="910"
+      Title="AddSubject">
+    <Page.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="D:\1_UNI\Programming\C#\Vp_Semester_Project\Vp_Semester_Project\Dictionaries\InternalStyles.xaml"/>
+            </ResourceDictionary.MergedDictionaries>
+
+            <!--DATE PICKER STYLE-->
+            <Style TargetType="DatePicker">
+                <Style.Resources>
+                    <Style TargetType="{x:Type Border}">
+                        <Setter Property="CornerRadius" Value="4" />
+                    </Style>
+                </Style.Resources>
+            </Style>
+            <Style TargetType="DatePickerTextBox">
+                <Setter Property="Text" Value="SELECT A DATE" />
+                <Setter Property="FontSize" Value="12" />
+                <Setter Property="IsReadOnly" Value="True" />
+            </Style>
+
+        </ResourceDictionary>
+    </Page.Resources>
+
+    <Grid Style="{StaticResource InternalPage}">
+
+
+        <Label Content="ENTER COURSE DATA" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="60,20,0,0" Padding="0,10" FontSize="30" FontWeight="Bold"/>
+
+        <Border Style="{StaticResource MainBorder}" Margin="0,0,0,-40">
+            <Grid Margin="30" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Width="350">
+
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="2*"/>
+                    <ColumnDefinition Width="3*"/>
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="55" />
+                    <RowDefinition Height="55" />
+                    <RowDefinition Height="55" />
+                    <RowDefinition Height="55" />
+                </Grid.RowDefinitions>
+                <Label Content="Name" Style="{StaticResource AddMainBorderLabel}" Grid.Column="0" Grid.Row="0"/>
+                <Label Content="Credit Hrs" Style="{StaticResource AddMainBorderLabel}"  Grid.Column="0" Grid.Row="1" />
+                <Label Content="Prerequisites"  Style="{StaticResource AddMainBorderLabel}" Grid.Column="0" Grid.Row="2" />
+                <TextBox x:Name="NameInput" Style="{StaticResource AddMainBorderTextBox}" Grid.Column="1" Grid.Row="0" />
+                <TextBox x:Name="CreditHrsInput" Style="{StaticResource AddMainBorderTextBox}" Grid.Column="1" Grid.Row="1" />
+                <TextBox x:Name="PrerequisitesInput" Style="{StaticResource AddMainBorderTextBox}" Grid.Column="1" Grid.Row="2" />
+
+                
+                
+                
+                
+                <TextBlock x:Name="message" HorizontalAlignment="Stretch"  TextWrapping="Wrap" VerticalAlignment="Bottom" Grid.Column="0" Grid.ColumnSpan="2" Grid.Row="3"  FontSize="16" Padding="5,2" Focusable="True" Margin="0,0,152,7.8"/>
+
+                <Button x:Name="addStudent" Style="{StaticResource adusButton}" Content="ADD COURSE" HorizontalAlignment="Right" Grid.Column="1" Grid.Row="3" VerticalAlignment="Bottom" Click="addStudent_Click" Margin="0,0,0,5.8" />
+
+            </Grid>
+        </Border>
+    </Grid>
+</Page>

@@ -1,0 +1,539 @@
+# .NET and Visual Studio files
+.vscode/
+.vs/
+obj/
+bin/
+*.user
+*.suo
+*.cache
+*.userprefs
+*.sln.docstates
+
+# User-specific files
+*.suo
+*.user
+*.userosscache
+
+# Logs and databases
+*.sqlite
+*.sqlite-shm
+*.sqlite-wal
+*.mdf
+*.ldf
+
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+# Windows Installer files
+*.cab
+*.msi
+*.msm
+*.msp
+
+# Windows shortcuts
+Desktop.ini
+.lnk
+
+# Visual Studio Code
+.vscode/
+
+# User-specific files
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# User-specific files
+.suo
+*.user
+*.suo
+*.user
+
+# Dependency directories
+packages/
+bower_components/
+node_modules/
+
+# .NET Core
+project.lock.json
+project.fragment.lock.json
+artifacts/
+bin/
+obj/
+
+# User-specific Visual Studio files
+.vscode/
+*.suo
+*.user
+*.suo
+*.user
+
+# Rider
+.idea/
+.idea/
+
+# User-specific files
+*.suo
+*.user
+*.suo
+*.user
+
+# Visual Studio for Mac
+.vscode/
+.idea/
+
+# User-specific files
+*.suo
+*.user
+*.suo
+*.user
+
+# Rider
+.idea/
+
+# User-specific Rider files
+.idea/
+
+# User-specific Rider files
+.idea/
+
+# User-specific files
+*.suo
+*.user
+*.suo
+*.user
+
+# Xamarin Studio
+.vscode/
+.idea/
+
+# User-specific files
+*.suo
+*.user
+*.suo
+*.user
+
+# User-specific files
+*.suo
+*.user
+*.suo
+*.user
+
+# User-specific Visual Studio Code settings
+.vscode/settings.json
+
+# Rider
+.idea/
+.idea/
+.idea/
+.idea/
+.idea/
+.idea/
+.idea/
+.idea/
+
+# User-specific Rider files
+.idea/
+
+# User-specific Rider files
+.idea/
+
+# User-specific files
+*.suo
+*.user
+*.suo
+*.user
+
+# User-specific files
+*.suo
+*.user
+*.suo
+*.user
+
+# User-specific Visual Studio Code settings
+.vscode/settings.json
+
+# Rider
+.idea/
+.idea/
+.idea/
+.idea/
+.idea/
+.idea/
+.idea/
+.idea/
+
+# User-specific Rider files
+.idea/
+
+# User-specific Rider files
+.idea/
+
+# Resharper
+_ReSharper*/
+.idea/
+.idea/
+.idea/
+.idea/
+.idea/
+.idea/
+.idea/
+.idea/
+.idea/
+.idea/
+
+# User-specific files
+*.suo
+*.user
+*.suo
+*.user
+
+# User-specific Visual Studio Code settings
+.vscode/settings.json
+
+# Rider
+.idea/
+.idea/
+.idea/
+.idea/
+.idea/
+.idea/
+.idea/
+.idea/
+
+# User-specific Rider files
+.idea/
+
+# User-specific Rider files
+.idea/
+
+# User-specific files
+*.suo
+*.user
+*.suo
+*.user
+
+# User-specific Visual Studio Code settings
+.vscode/settings.json
+
+# Rider
+.idea/
+.idea/
+.idea/
+.idea/
+.idea/
+.idea/
+.idea/
+.idea/
+.idea/
+.idea/
+.idea/
+
+# User-specific Rider files
+.idea/
+
+# User-specific Rider files
+.idea/
+
+# Visual Studio for Mac
+.vscode/
+.idea/
+.idea/
+.idea/
+.idea/
+.idea/
+.idea/
+.idea/
+.idea/
+.idea/
+.idea/
+.idea/
+.idea/
+
+# User-specific Rider files
+.idea/
+
+# User-specific Rider files
+.idea/
+
+# Rider
+.idea/
+
+# User-specific Rider files
+.idea/
+
+# User-specific Rider files
+.idea/
+
+# User-specific Rider files
+.idea/
+
+# Rider
+.idea/
+.idea/
+.idea/
+.idea/
+.idea/
+.idea/
+.idea/
+.idea/
+
+# User-specific Rider files
+.idea/
+
+# User-specific Rider files
+.idea/
+
+# Visual Studio for Mac
+.vscode/
+.idea/
+.idea/
+.idea/
+.idea/
+.idea/
+.idea/
+.idea/
+.idea/
+.idea/
+.idea/
+.idea/
+.idea/
+.idea/
+
+# User-specific Rider files
+.idea/
+
+# User-specific Rider files
+.idea/
+
+# User-specific Rider files
+.idea/
+
+# User-specific Rider files
+.idea/
+
+# Visual Studio for Mac
+.vscode/
+.idea/
+.idea/
+.idea/
+.idea/
+.idea/
+.idea/
+.idea/
+.idea/
+.idea/
+.idea/
+.idea/
+.idea/
+.idea/
+.idea/
+
+# User-specific Rider files
+.idea/
+
+# User-specific Rider files
+.idea/
+
+# User-specific Rider files
+.idea/
+
+# User-specific Rider files
+.idea/
+
+# Mac
+.DS_Store
+
+# Mono
+mono_crash.*
+
+# User-specific Rider files
+.idea/
+
+# User-specific Rider files
+.idea/
+
+# User-specific Rider files
+.idea/
+
+# User-specific Rider files
+.idea/
+
+# Mac
+.DS_Store
+
+# Mono
+mono_crash.*
+
+# User-specific Rider files
+.idea/
+
+# User-specific Rider files
+.idea/
+
+# Visual Studio Code directories
+.vscode/
+.vscode/
+
+# Rider directories
+.idea/
+.idea/
+.idea/
+
+# Rider directories
+.idea/
+.idea/
+.idea/
+
+# User-specific Visual Studio Code workspace settings
+.vscode/
+.vscode/
+
+# User-specific Rider files
+.idea/
+
+# User-specific Rider files
+.idea/
+
+# User-specific Rider files
+.idea/
+
+# User-specific Rider files
+.idea/
+
+# Visual Studio Code directories
+.vscode/
+.vscode/
+
+# Rider directories
+.idea/
+.idea/
+.idea/
+
+# Rider directories
+.idea/
+.idea/
+.idea/
+
+# User-specific Visual Studio Code workspace settings
+.vscode/
+.vscode/
+
+# User-specific Rider files
+.idea/
+
+# User-specific Rider files
+.idea/
+
+# User-specific Rider files
+.idea/
+
+# User-specific Rider files
+.idea/
+
+# Mac
+.DS_Store
+
+# Mono
+mono_crash.*
+
+# Visual Studio Code directories
+.vscode/
+.vscode/
+
+# Rider directories
+.idea/
+.idea/
+.idea/
+
+# Rider directories
+.idea/
+.idea/
+.idea/
+
+# User-specific Visual Studio Code workspace settings
+.vscode/
+.vscode/
+
+# User-specific Rider files
+.idea/
+
+# User-specific Rider files
+.idea/
+
+# User-specific Rider files
+.idea/
+
+# User-specific Rider files
+.idea/
+
+# Mac
+.DS_Store
+
+# Mono
+mono_crash.*
+
+# Visual Studio Code directories
+.vscode/
+.vscode/
+
+# Rider directories
+.idea/
+.idea/
+.idea/
+
+# Rider directories
+.idea/
+.idea/
+.idea/
+
+# User-specific Visual Studio Code workspace settings
+.vscode/
+.vscode/
+
+# User-specific Rider files
+.idea/
+
+# User-specific Rider files
+.idea/
+
+# User-specific Rider files
+.idea/
+
+# User-specific Rider files
+.idea/
+
+# Windows Installer files
+*.cab
+*.msi
+*.msm
+*.msp
+
+# Windows shortcuts
+Desktop.ini
+.lnk
+
+# Windows Installer files
+*.cab
+*.msi
+*.msm
+*.msp
+
+# Windows shortcuts
+Desktop.ini
+.lnk
+
+# Unity3D generated folders
+Library/
+Temp/
+# Unity3D generated folders
+Library/
+Temp/
+# .NET Scaffolding
+ScaffoldingReadMe.txt
+# .NET Scaffolding
+ScaffoldingReadMe.txt
+# Blazor
+_wwwroot/
+# Blazor
